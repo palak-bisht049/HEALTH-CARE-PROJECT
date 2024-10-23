@@ -20,6 +20,7 @@ app.use(cors());
 app.use(errorHandler);
 
 
+app.set('view engine','hbs')
 
 
 //ROUTES BELOW
